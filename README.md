@@ -10,7 +10,7 @@
 
 ## 🚀 启动指南 (How to Run)
 1. 确保 Docker Desktop 已启动。
-2. 在仓库根目录执行：`docker build -t save-repo-fullstack1 .`
+2. 在交付环境目录执行：`docker build -t save-repo-fullstack1 .`
 3. 启动容器：`docker run --rm -p 3000:3000 -p 8000:8000 save-repo-fullstack1`
 4. 打开前端地址并使用测试账号登录。
 
@@ -127,7 +127,6 @@ erDiagram
 ```text
 .
 ├── README.md                 # 项目交付说明
-├── Dockerfile                # 单容器启动入口
 ├── backend/                  # Fastify API 服务
 │   ├── src/db/               # Drizzle 表结构、SQLite 连接、初始化数据
 │   ├── src/routes/           # 业务 API 路由
